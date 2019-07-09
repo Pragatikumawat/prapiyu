@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/xyz"
+    android:background="#2468a3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Splash">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/i1"
+            android:layout_width="200dp"
+            android:layout_height="175dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:src="@drawable/rail_logo"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="186dp"
+            android:layout_height="58dp"
+            android:layout_gravity="center"
+            android:text="North Western Railway Jaipur"
+            android:textColor="@color/white"
+            android:layout_marginLeft="20dp"
+            android:textSize="23sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="156dp"
+            android:layout_height="47dp"
+            android:layout_gravity="center"
+            android:text="      Division "
+            android:textColor="@color/white"
+            android:textSize="23sp"
+            android:textStyle="italic" />
+    </LinearLayout>
+</RelativeLayout>

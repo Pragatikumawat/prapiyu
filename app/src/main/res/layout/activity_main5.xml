@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blurimageb"
+    tools:context=".MainActivity5">
+
+    <EditText
+        android:id="@+id/e1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/i66"
+        android:layout_alignParentStart="true"
+        android:ems="10"
+        android:hint="enter your name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/e2"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/e1"
+        android:ems="10"
+        android:hint="enter permanent address"
+        android:inputType="textPostalAddress" />
+
+    <EditText
+        android:id="@+id/e3"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/e2"
+        android:ems="10"
+        android:hint="enter your phone no"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/e4"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/e3"
+        android:ems="10"
+        android:hint="enter DOB"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/e5"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/e4"
+        android:ems="10"
+        android:hint="enter your email"
+        android:inputType="textEmailAddress" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/e1"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="109dp"
+        android:background="#c0f7c9"
+        android:onClick="onClick"
+        android:text="save" />
+
+
+    <EditText
+        android:id="@+id/e6"
+        android:layout_width="141dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/e5"
+        android:ems="10"
+        android:hint="gender" />
+
+    <ImageView
+        android:id="@+id/i66"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="12dp"
+        android:layout_marginTop="11dp"
+        android:background="#f1f0f0" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/button7"
+        android:layout_alignTop="@+id/i66"
+        android:text="take a photo" />
+
+    <EditText
+        android:id="@+id/e7"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/e6"
+        android:ems="10"
+        android:hint="10th%"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/e9"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:ems="10"
+        android:hint="btech aggregate"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/e8"
+        android:layout_width="159dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/e9"
+        android:layout_alignParentStart="true"
+        android:ems="10"
+        android:hint="12th%"
+        android:inputType="numberDecimal" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="81dp"
+        android:layout_height="37dp"
+        android:layout_alignBottom="@+id/e6"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="59dp" />
+
+    <EditText
+        android:id="@+id/branch1"
+        android:layout_width="73dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/e6"
+        android:layout_marginBottom="-10dp"
+        android:layout_marginStart="-30dp"
+        android:layout_toEndOf="@+id/button7"
+        android:ems="10"
+        android:hint="branch"
+        android:inputType="textPersonName" />
+
+</RelativeLayout>

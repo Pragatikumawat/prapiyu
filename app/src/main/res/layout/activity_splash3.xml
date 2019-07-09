@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/drawer"
+    android:background="@drawable/blurimagea"
+    android:layout_height="match_parent"
+    tools:context=".splash3"
+    tools:openDrawer="start">
+    <RelativeLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="359dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="Application for Internship "
+            android:textColor="#fff"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="336dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView7"
+            android:layout_below="@+id/textView7"
+            android:text="MINISTRY OF RAILWAY"
+            android:textColor="#fff"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/textVi8"
+            android:layout_width="288dp"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/textView8"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="117dp"
+            android:text="This form is applicable for all branches"
+            android:textColor="#fff" />
+
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="290dp"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="179dp"
+            android:background="@drawable/btnshape"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="click to open form"
+            android:textColor="#000" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="287dp"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/btnshape"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="view entries"
+            android:textColor="#000" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="288dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/button4"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="-170dp"
+            android:background="@drawable/btnshape"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="DELETE"
+            android:textColor="#000" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="285dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="182dp"
+            android:background="@drawable/btnshape"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="edit"
+            android:textColor="#000" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="285dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="68dp"
+            android:background="@drawable/btnshape"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="view All"
+            android:textColor="#000" />
+    </RelativeLayout>
+     <android.support.design.widget.NavigationView
+         android:id="@+id/navigation"
+         android:layout_width="250dp"
+         android:layout_height="match_parent"
+         android:layout_gravity="start"
+          app:menu="@menu/draweritem"
+           app:headerLayout="@layout/header">
+</android.support.design.widget.NavigationView>
+</android.support.v4.widget.DrawerLayout>

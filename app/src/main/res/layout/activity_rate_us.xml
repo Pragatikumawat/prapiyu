@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".RateUs">
+
+    <RatingBar
+        android:id="@+id/ratingBAR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="104dp"
+        android:stepSize="0.2" />
+
+    <TextView
+        android:id="@+id/tex16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textSize="30dp"
+        android:text="Please Give Us a Rating" />
+
+    <TextView
+        android:id="@+id/tex17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="172dp"
+        android:textStyle="bold"
+        android:textColor="#000"/>
+
+    <Button
+        android:id="@+id/but13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="204dp"
+        android:text="submit"
+        android:onClick="onsubmit"
+        android:background="#cbfffc58"/>
+
+    <TextView
+        android:id="@+id/tex18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="73dp"
+        android:textSize="30dp"
+        android:textColor="#000"
+        android:text="THANKS!!" />
+
+</RelativeLayout>

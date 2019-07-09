@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blurimageb"    tools:context=".MainActivityUpdate">
+
+    <EditText
+        android:id="@+id/e71"
+        android:layout_width="204dp"
+        android:layout_height="59dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="enter your name"
+        android:inputType="textPersonName"
+        android:textColorHint="#fff" />
+
+
+    <EditText
+        android:id="@+id/editText10"
+        android:layout_width="349dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="84dp"
+        android:ems="10"
+        android:hint="your address"
+        android:inputType="phone"
+        android:textColorHint="#fff" />
+
+    <EditText
+        android:id="@+id/editText11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="141dp"
+        android:ems="10"
+        android:hint="your phone number"
+        android:inputType="date"
+        android:textColorHint="#fff" />
+
+    <EditText
+        android:id="@+id/editText16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editText11"
+        android:ems="10"
+        android:hint="your date of birth"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#fff" />
+
+    <EditText
+        android:id="@+id/editText20"
+        android:layout_width="366dp"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editText16"
+        android:ems="10"
+        android:hint="your email address"
+        android:inputType="textPersonName"
+        android:textColorHint="#fff" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editText10"
+        android:layout_alignTop="@+id/e71"
+        android:background="#c3f4c7"
+        android:text="show" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="68dp"
+        android:background="#f5c6b0"
+        android:text="update" />
+
+    <EditText
+        android:id="@+id/editText222"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText20"
+        android:ems="10"
+        android:hint="gender"
+        android:inputType="textPersonName"
+        android:textColorHint="#fff" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="121dp"
+        android:ems="10"
+        android:hint="10th%"
+        android:inputType="numberDecimal"
+        android:textColorHint="#ffff" />
+
+    <EditText
+        android:id="@+id/editText23"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText5"
+        android:ems="10"
+        android:hint="btech aggregate"
+        android:inputType="numberDecimal"
+        android:textColorHint="#ffff" />
+
+    <EditText
+        android:id="@+id/editText231"
+        android:layout_width="104dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText"
+        android:layout_alignEnd="@+id/editText10"
+        android:ems="10"
+        android:hint="branch"
+        android:inputType="textPersonName"
+        android:textColorHint="#fff" />
+
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="159dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editText"
+        android:layout_marginTop="-121dp"
+        android:ems="10"
+        android:hint="12th%"
+        android:inputType="numberDecimal"
+        android:textColorHint="#ffff" />
+
+</RelativeLayout>

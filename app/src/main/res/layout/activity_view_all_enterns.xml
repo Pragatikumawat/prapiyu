@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewAllEnternsActivity">
+
+    <TableLayout
+        android:id="@+id/table"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:stretchColumns="1,2,3,4,5,6,7">
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_span="1"
+                android:background="@drawable/border_black"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Name"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_column="1"
+                android:layout_span="1"
+                android:background="@drawable/border_black"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="DOB"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_span="1"
+                android:background="@drawable/border_black"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Address"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_span="1"
+                android:background="@drawable/border_black"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Phone No."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_span="1"
+                android:background="@drawable/border_black"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Email"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_span="1"
+                android:background="@drawable/border_black"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Gender"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_span="1"
+                android:background="@drawable/border_black"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="10th%"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_span="1"
+                android:background="@drawable/border_black"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="12th%"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_span="1"
+                android:background="@drawable/border_black"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="btech aggregate"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_span="1"
+                android:background="@drawable/border_black"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="branch "
+                android:textStyle="bold" />
+        </TableRow>
+
+    </TableLayout>
+
+</RelativeLayout>

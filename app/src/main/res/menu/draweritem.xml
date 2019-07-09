@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#f9d9d9">
+    <group>
+        <item
+            android:id="@+id/i1"
+            android:icon="@drawable/home"
+            android:title="Home"
+            app:showAsAction="never"/>
+
+        <item
+            android:id="@+id/i2"
+            android:icon="@drawable/star"
+            android:title=" Rate us"
+            app:showAsAction="never"/>
+
+    </group>
+
+    <item android:title="Communicate"
+           android:background="#f9d9d9">
+    <menu>
+    <item
+        android:id="@+id/i3"
+        android:icon="@drawable/share"
+        android:title="share"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/i4"
+        android:icon="@drawable/exit2"
+        android:title="Exit"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/i5"
+        android:icon="@drawable/tnc"
+        android:title="T and C"
+        app:showAsAction="never"/>
+
+    </menu>
+</item>
+</menu>

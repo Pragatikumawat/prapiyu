@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TnCActivity">
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="362dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="196dp"
+        android:text="The General Terms and Conditions set out by Internship Makers are intended to define the contractual obligations established between the client and Internship Makers and conditions of sale" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="367dp"
+        android:layout_height="144dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="23dp"
+        android:text="The placement company:
+Internship Makers LTD (IM)
+1A, St Mark Street, Valleta VLT1364, Malta
+Registration Number : C 59562
+and
+The client:
+An individual or group of individuals using the services or advice of the placement company." />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/textView22"
+        android:layout_marginTop="-226dp"
+        android:text="The client acknowledges having read, understood and accepted the Terms and Conditions.
+
+The data recorded by IM constitute evidence of all transactions made by the client.
+ Data such as invoices, e-mails or communications testify to the client’s commitment and acceptance.
+
+ the services are charged on the basis of the rates in effect at the date of the client’s registration.The prices do not include airfare, insurance, visa costs, excess baggageThese Terms and Conditions represent a contract between the client and Internship Makers." />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView24"
+        android:text="Terms and conditions are a legal agreement between:"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView18"
+        android:layout_marginTop="168dp"
+        android:text="Internship Makers Terms and Conditions:"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView18"
+        android:layout_marginBottom="226dp"
+        android:text="Prices"
+        android:textColor="#000" />
+
+</RelativeLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/border_black"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Name"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/dob"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:background="@drawable/border_black"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="DOB" />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_black"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Address" />
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/border_black"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Phone No." />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/border_black"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Email" />
+
+    <TextView
+        android:id="@+id/gender"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_column="1"
+        android:layout_span="1"
+        android:background="@drawable/border_black"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Gender" />
+    <TextView
+        android:id="@+id/tenth"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_column="1"
+        android:layout_span="1"
+        android:background="@drawable/border_black"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="10th%"/>
+    <TextView
+        android:id="@+id/twelth"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_column="1"
+        android:layout_span="1"
+        android:background="@drawable/border_black"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="12th%"/>
+    <TextView
+        android:id="@+id/btech"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_column="1"
+        android:layout_span="1"
+        android:background="@drawable/border_black"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="btech aggregate"/>
+    <TextView
+        android:id="@+id/branch1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_column="1"
+        android:layout_span="1"
+        android:background="@drawable/border_black"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="branch"/>
+
+</TableRow>

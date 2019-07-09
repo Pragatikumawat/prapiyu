@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/blurimageb"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity8">
+
+    <EditText
+        android:id="@+id/e1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/btn11"
+        android:layout_marginStart="22dp"
+        android:ems="10"
+        android:hint="enter your name"
+        android:textColorHint="#fff"
+        android:inputType="textPersonName"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btn11"
+        android:layout_width="62dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="23dp"
+        android:layout_marginTop="51dp"
+        android:background="#baf7c3"
+        android:text="ok"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="169dp"
+        android:textColorHint="#fff"
+        android:hint="your address"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="219dp"
+        android:textColorHint="#fff"
+        android:hint="your phone no"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/t3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="219dp"
+        android:textColorHint="#fff"
+        android:hint="your DOB"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/t4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="174dp"
+        android:textColorHint="#fff"
+        android:hint="your email address"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/t5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:textColorHint="#fff"
+        android:layout_marginTop="125dp"
+        android:hint="your name "
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btn12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/t9"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="15dp"
+        android:background="#edbebe"
+        android:text="delete" />
+
+    <TextView
+        android:id="@+id/t6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:textColorHint="#fff"
+        android:layout_marginBottom="125dp"
+        android:hint="you are male or female"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/t8"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="83dp"
+        android:hint="10th%"
+        android:textColorHint="#fff"
+        android:textSize="20dp" />
+
+
+    <TextView
+        android:id="@+id/t7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="48dp"
+        android:hint="12th%"
+        android:textColorHint="#fff"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/t9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="14dp"
+        android:hint="btech aggregate"
+        android:textColorHint="#fff"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/t10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/t5"
+        android:layout_centerHorizontal="true"
+        android:hint="branch"
+        android:textColorHint="#fff"
+        android:textSize="20dp" />
+
+</RelativeLayout>
